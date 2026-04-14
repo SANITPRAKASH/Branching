@@ -27,7 +27,7 @@ app.post("/logs", (req, res) => {
   };
 
   logs.push(entry);
-  res.status(201).json({ success: true, entry })
+  res.status(201).json({ success: true, entry );
 });
 
 // GET /logs/:id — Get a specific log by ID
